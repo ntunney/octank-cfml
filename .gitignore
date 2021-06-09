@@ -18,3 +18,4 @@ yarn-error.log
 testbox/*
 modules/*
 modules/**/apidocs/**
+assets/documents/100MB.pdf

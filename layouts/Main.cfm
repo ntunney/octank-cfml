@@ -73,21 +73,21 @@
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
-                            <div class="mb-2"><i class="bi-gem fs-1 text-primary"></i></div>
+                            <div class="mb-2"><a href="https://d3d525frfj2xl7.cloudfront.net/assets/documents/20MB.pdf"><i class="bi-gem fs-1 text-primary"></i></a></div>
                             <h3 class="h4 mb-2">Insurance Friendly</h3>
                             <p class="text-muted mb-0">We make it easy!</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
-                            <div class="mb-2"><i class="bi-laptop fs-1 text-primary"></i></div>
+                            <div class="mb-2"><a href="https://d3d525frfj2xl7.cloudfront.net/assets/documents/50MB.pdf"><i class="bi-laptop fs-1 text-primary"></i></a></div>
                             <h3 class="h4 mb-2">Telemedicine</h3>
                             <p class="text-muted mb-0">We can get you connected in a flash.</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
-                            <div class="mb-2"><i class="bi-globe fs-1 text-primary"></i></div>
+                            <div class="mb-2"><a href="https://d3d525frfj2xl7.cloudfront.net/assets/documents/100MB.pdf"><i class="bi-globe fs-1 text-primary"></i></a></div>
                             <h3 class="h4 mb-2">Travel Medicine</h3>
                             <p class="text-muted mb-0">Even when you are far from home, we are here for you!</p>
                         </div>
@@ -149,7 +149,6 @@
                                 <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                             </div>
                             <!-- Submit success message-->
-                            
                             <!-- This is what your users will see when the form-->
                             <!-- has successfully submitted-->
                             <div class="d-none" id="submitSuccessMessage">
@@ -161,7 +160,6 @@
                                 </div>
                             </div>
                             <!-- Submit error message-->
-                            
                             <!-- This is what your users will see when there is-->
                             <!-- an error submitting the form-->
                             <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
