@@ -1742,7 +1742,7 @@ component serializable="false" accessors="true" {
 	){
 		// Only read the content once
 		if ( !structKeyExists( variables.privateContext, "_httpContent" ) ) {
-			variables.privateContext._httpContent = getHTTPRequestData().content;
+			variables.privateContext._httpContent = getHTTPRequestData(false).content;
 		}
 
 		// leave translations NOT cached, as you could ask for different types of formats
