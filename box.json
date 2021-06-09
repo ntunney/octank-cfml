@@ -1,0 +1,13 @@
+{
+    "dependencies":{
+        "coldbox":"^6.4.0+1513"
+    },
+    "installPaths":{
+        "coldbox":"coldbox/"
+    },
+    "location":"",
+    "name":"octank",
+    "scripts":{},
+    "slug":"octank",
+    "version":"1.0.0"
+}
