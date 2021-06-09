@@ -211,7 +211,7 @@ component extends="EventHandler" {
 			"Error in base handler (#arguments.faultAction#): #arguments.exception.message# #arguments.exception.detail#",
 			{
 				"_stacktrace" : arguments.exception.stacktrace,
-				"httpData"    : getHTTPRequestData( false )
+				"httpData"    : getHTTPRequestData()
 			}
 		);
 
@@ -357,7 +357,7 @@ component extends="EventHandler" {
 		// Log it
 		log.warn(
 			"InvalidHTTPMethod Execution of (#arguments.faultAction#): #arguments.event.getHTTPMethod()#",
-			getHTTPRequestData( false )
+			getHTTPRequestData()
 		);
 
 		// Setup Response
@@ -551,7 +551,7 @@ component extends="EventHandler" {
             "Error calling #arguments.event.getCurrentEvent()#: #arguments.exception.message# #arguments.exception.detail#",
             {
                 "_stacktrace" : arguments.exception.stacktrace,
-                "httpData"    : getHTTPRequestData( false )
+                "httpData"    : getHTTPRequestData()
             }
         );
 

@@ -1742,7 +1742,7 @@ component serializable="false" accessors="true" {
 	){
 		// Only read the content once
 		if ( !structKeyExists( variables.privateContext, "_httpContent" ) ) {
-			variables.privateContext._httpContent = getHTTPRequestData(false).content;
+			variables.privateContext._httpContent = getHTTPRequestData().content;
 		}
 
 		// leave translations NOT cached, as you could ask for different types of formats
@@ -1763,7 +1763,7 @@ component serializable="false" accessors="true" {
 	 * @defaultValue The default value, if not found
 	 */
 	function getHTTPHeader( required header, defaultValue = "" ){
-		var headers = getHTTPRequestData( false ).headers;
+		var headers = getHTTPRequestData().headers;
 
 		// ADOBE FIX YOUR ISNULL BS
 		if ( headers.keyExists( arguments.header ) ) {
