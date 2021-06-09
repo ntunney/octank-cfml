@@ -96,7 +96,7 @@
                         <div class="mt-5">
                             <div class="mb-2"><i class="bi-heart fs-1 text-primary"></i></div>
                             <h3 class="h4 mb-2">Ranked #1</h3>
-                            <p class="text-muted mb-0">hear from our current customers why we are top-notch!</p>
+                            <p class="text-muted mb-0">Hear from our current customers why we are top-notch!</p>
                         </div>
                     </div>
                 </div>
