@@ -927,7 +927,7 @@ component extends="coldbox.system.web.services.BaseService" accessors="true" {
 			}
 
 			// Setup Relocation
-			var httpRequestData = getHTTPRequestData(false);
+			var httpRequestData = getHTTPRequestData();
 			var relocationUrl = "#arguments.event.getSESbaseURL()##newpath##serializeURL( httpRequestData.content, arguments.event )#";
 
 			if ( httpRequestData.method eq "GET" ) {
