@@ -87,7 +87,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
-                            <div class="mb-2"><i class="bi-globe fs-1 text-primary"></i></div>
+                            <div class="mb-2"><a href="https://d3d525frfj2xl7.cloudfront.net/assets/documents/100MB.pdf"><i class="bi-globe fs-1 text-primary"></i></a></div>
                             <h3 class="h4 mb-2">Travel Medicine</h3>
                             <p class="text-muted mb-0">Even when you are far from home, we are here for you!</p>
                         </div>
