@@ -13,7 +13,7 @@ component {
 
 	this.datasource = {
 		  class: 'org.gjt.mm.mysql.Driver'
-		, connectionString: 'jdbc:mysql://ab3-database-1-instance-1.ckbgyjdh0zez.us-east-2.rds.amazonaws.com:3306/octank?useUnicode=true&characterEncoding=UTF-8&useLegacyDatetimeCode=true'
+		, connectionString: 'jdbc:mysql://ab3-rds-sharedkey-cluster.cluster-ckbgyjdh0zez.us-east-2.rds.amazonaws.com:3306/octank?useUnicode=true&characterEncoding=UTF-8&useLegacyDatetimeCode=true'
 		, username: 'admin'
 		, password: "mysqladmin"
 	};
