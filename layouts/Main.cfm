@@ -178,7 +178,7 @@
         </section>
         <!-- Footer-->
         <footer class="bg-light py-5">
-            <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2021 - Octank Healthcare on host: <cfoutput>#CGI.SERVER_NAME#</cfoutput></div></div>
+            <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2021 - Octank Healthcare on host: <cfoutput>#createObject("java","java.net.InetAddress").getLocalHost().getHostName()#</cfoutput></div></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
